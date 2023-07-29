@@ -1,6 +1,5 @@
 import { useCallback } from "react";
 import { useNavigate } from "react-router-dom";
-import Beetplanerstell from "../components/Beetplanerstell";
 import Planzenlexikon from "../components/Planzenlexikon";
 import styled from "styled-components";
 import Navbar from "../components/Navbar";
@@ -43,12 +42,7 @@ const Homepage = () => {
 
   return (
     <HomepageRoot>
-      <Beetplanerstell
-        planCreatorText="Erstelle hier deinen Beetplan"
-        showPlusSquareIcon
-        onComponent1ContainerClick={onComponent1ContainerClick}
-      />
-      <Planzenlexikon />
+           <Planzenlexikon />
       <LowerBar1 alt="" src="/lower-bar-1.svg" />
       <Willkommen>Willkommen!</Willkommen>
       <Navbar />
