@@ -23,10 +23,10 @@ import Homepage from "./pages/Homepage";
 
   //simple routing
   //for more information see https://reactrouter.com/en/main/start/tutorial
-  return (
+ 
     
       
-  );
+
 
 
 export default App;
